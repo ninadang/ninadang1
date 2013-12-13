@@ -1,4 +1,8 @@
 $(function() {
+
+	var links = $('.navigation').find('li');
+    slide = $('.slide');
+
 	/* "Tell me more" scroll */
 	$("#one").click(function() {
 		$('html, body').animate({
