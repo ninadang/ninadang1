@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 90px;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -24,11 +23,17 @@ h2 {
 }
 
 h3 {
-	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 50px;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+h4 {
+	font-weight: 100;
+	font-size: 24px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 ul.navigation {
@@ -77,7 +82,8 @@ ul.navigation li.active {
 	height: 100%;
 	/*position: relative; */
 	overflow: hidden;
-	background-color: #318b6b;
+	/*background-color: #318b6b;*/
+	background-color: #1a1a1a;
 }
 
 #slide1 {
@@ -90,16 +96,12 @@ ul.navigation li.active {
 	margin-top: 5%;
 	margin-left: 10%;
 	color: #FFF;
-	height: 1000px;
+	height: 700px;
 }
 
 .writing {
 	width: 700px;
 	font-size: 20px;
-}
-
-.msg-list {
-	width: 350px;
 }
 
 .msg-head {
@@ -110,7 +112,7 @@ ul.navigation li.active {
 
 .msg-head:hover {
 	cursor: pointer;
-	color: #000;
+	color: #318b6b;
 }
 
 .msg-body {
@@ -118,6 +120,8 @@ ul.navigation li.active {
 	padding: 5px 10px 15px;
 }
 
-.msg-img {
-
+.skill-icons img {
+	padding-right: 10px;
+	padding-bottom: 5px;
 }
+
