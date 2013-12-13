@@ -57,4 +57,9 @@ jQuery(document).ready(function ($) {
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
     });
+
+    $.stellar({
+        horizontalScrolling: false,
+        responsive :true
+    });
 });
