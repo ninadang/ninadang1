@@ -136,7 +136,7 @@ animation-iteration-count:infinite;
 	background: url("../img/back/splash2-green.jpg");
 }
 
-#slide4 {
+#slide2, #slide4 {
 	background-color: #000;
 }
 
