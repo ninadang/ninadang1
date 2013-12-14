@@ -13,8 +13,9 @@ body {
 }
 
 h1 {
+	font-family: 'Roboto';
 	font-weight: 300;
-	font-size: 90px;
+	font-size: 70px;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -23,6 +24,7 @@ h2 {
 }
 
 h3 {
+	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 50px;
 	padding-top: 40px;
@@ -68,12 +70,11 @@ ul.navigation li.active {
 }
 
 .home-content {
-  position: absolute;
-  top: 22%;
-  left: 10%;
-  width: 1600px;
-  height: 660px;
-  background: url("../img/background.jpg");
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	width: 1600px;
+	height: 660px;
 }
 
 .slide {
@@ -87,16 +88,25 @@ ul.navigation li.active {
 }
 
 #slide1 {
-	width: 2200px;
- 	height: 1060px;
-	background: url("../img/background.jpg");
+	width: 1600px;
+ 	height: 655px;
+	background: url("../img/back/splash2.jpg");
 }
+
+#slide3 {
+	background: url("../img/back/splash2.jpg");
+}
+
+#slide5 {
+	background: url("../img/back/splash2.jpg");
+}
+
 
 .about, .work, .skills, .contact {
 	margin-top: 5%;
 	margin-left: 10%;
 	color: #FFF;
-	height: 700px;
+	height: 660px;
 }
 
 .writing {
@@ -125,3 +135,6 @@ ul.navigation li.active {
 	padding-bottom: 5px;
 }
 
+#narrative {
+	width: 600px;
+}

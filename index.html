@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Nina Dang</title>
 	<meta name="description" content="The portfolio of Nina Dang">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,7 +12,7 @@
 <body>
 	<!--NAVIGATION-->
 	<ul class="navigation">
-		<li data-slide="1" class="active"></li>
+		<li data-slide="1"></li>
 		<li data-slide="2"></li>
 		<li data-slide="3"></li>
 		<li data-slide="4"></li>
@@ -25,7 +25,7 @@
 			<div class="home-text">
 				<h2>Hi, I'm</h2>
 				<h1>NINA DANG</h1>
-				<p>An E-Sports addicted, German-speaking UX/UI & web designer in the making.</p>
+				<p>An E-Sports obsessed, German-speaking UX/UI & web designer in the making.</p>
 			</div>
 		</div>
 	</div>
@@ -39,7 +39,7 @@
 			I'm majoring in Informatics with a concentration in Human-Computer Interaction at the University of Washington. I hope to find a special place in UX/UI, design, and web development one day.<br><br>
 			</p>
 		</div>
-	<div>
+	</div>
 
 	<!--SKILLS-->
 	<div id="slide3" class="slide" data-slide="3" data-stellar-background-ratio="0.5" style="background-position: 0% 0%;">
@@ -56,7 +56,7 @@
 				<img src="img/skills/ai.png" alt="Illustrator" width="100" height="100">
 			</div>
 		</div>
-	<div>
+	</div>
 	
 	<!--WORK-->
 	<div id="slide4" class="slide" data-slide="4" data-stellar-background-ratio="0.5" style="background-position: 0% 0%;">
@@ -64,17 +64,58 @@
 			<h3>WORKS</h3>
 			<div class="msg-list">
 				<p class="msg-head">Narrative</p>
-					<div class="msg-body">Lead Front-End Developer<br>An online writing tool that encourages and inspires creative writing. 
+					<div class="msg-body">Front-End Developer<br>An online text-editor tool that encourages and inspires creative writing.<br><br> <img src="img/narrative/home.PNG" alt="Narrative Home" width="600" height="300">
+
+						<!--NARRATIVE CAROUSEL-->
+					<!--
+						<div class="container">
+							<div id="narrative" class="carousel slide" data-ride="carousel">
+								
+								<ol class="carousel-indicators">
+									<li data-target="#narrative" data-slide-to="0" class="active"></li>
+									<li data-target="#narrative" data-slide-to="1"></li>
+									<li data-target="#narrative" data-slide-to="2"></li>
+								</ol>
+
+								
+								<div class="carousel-inner">
+									<div class="item active">
+									  <img src="img/narrative/home.PNG" width="600" height="300" alt="Home">
+									</div>
+									<div class="item">
+									  <img src="img/narrative/writing.PNG" width="600" height="300" alt="Writing">
+									</div>
+									<div class="item">
+									  <img src="img/narrative/stuck.PNG" width="600" height="300" alt="Stuck">
+									</div>
+								</div>
+
+								<a class="left carousel-control" href="#narrative" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+								</a>
+								<a class="right carousel-control" href="#narrative" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+								</a>
+							</div>
+						</div> -->
 					</div>
+				
+
 				<p class="msg-head">CardSwapr</p>
-					<div class="msg-body">Graphic & Web Lead<br>The first mobile-to-mobile gift card trading application.</div>
-				<p class="msg-head">Starcraft 2 Logos</p>
-					<div class="msg-body">Redesigned logos of Terran, Zerg, and Protoss.</div>
+					<div class="msg-body">Graphic & Web Lead<br>The first mobile-to-mobile gift card trading application.
+					<br><br><img src="img/cardswapr/home.PNG" alt="CardSwapr Home" width="600" height="300">
+					</div>
+				
 				<p class="msg-head">Book Covers</p>
-					<div class="msg-body">Redesigned covers of various books.</div>
+					<div class="msg-body">Redesigned covers of various books.
+					<br><br><img src="img/bookcovers/quiet.jpg" alt="Quiet">
+					</div>
+
+				<p class="msg-head">Starcraft 2 Logos</p>
+					<div class="msg-body">Redesigned logos of Terran, Zerg, and Protoss. Coming Soon!</div>
 			</div>
 		</div>
-	<div>
+	</div>
 
 	<!--CONTACT-->
 	<div id="slide5" class="slide" data-slide="5" data-stellar-background-ratio="0.5" style="background-position: 0% 0%;">
@@ -82,13 +123,15 @@
 			<h3>CONTACT ME</h3>
 			<p class="writing">I'd love to hear from you. <br><br>ninadangt@gmail.com</p>
 		</div>
-	<div>
-
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.parallax.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/scrolling.js"></script>
 	<script type="text/javascript" src="js/jquery.stellar.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery-easing.1.3.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script>  $('.carousel').carousel(); </script>
+
 </body>
 </html>
