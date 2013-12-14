@@ -112,6 +112,7 @@ ul.navigation li.active {
 .writing {
 	width: 700px;
 	font-size: 20px;
+	font-weight: 300;
 }
 
 .msg-head {
