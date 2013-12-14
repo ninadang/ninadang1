@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+    $(window).stellar();
 
     //Cache some variables
     var links = $('.navigation').find('li');
