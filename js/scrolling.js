@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+    $(window).stellar();
 
     //Cache some variables
     var links = $('.navigation').find('li');
@@ -56,5 +57,10 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
+    });
+
+    $.stellar({
+        horizontalScrolling: false,
+        responsive :true
     });
 });
