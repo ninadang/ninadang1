@@ -82,6 +82,39 @@ ul.navigation li.active {
 	margin-top: -6%;
 }
 
+.ov {
+
+position:relative;
+animation-name:myfirst;
+animation-duration:4s;
+animation-timing-function:linear;
+animation-iteration-count:infinite;
+/* Safari and Chrome: */
+-webkit-animation-name:myfirst;
+-webkit-animation-duration:5s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-iteration-count:infinite;
+}
+
+@keyframes myfirst
+{
+0%   {left:5px; top:0px;}
+25%  {left:5px; top:0px;}
+50%  {left:0px; top:5px;}
+75%  {left:10px; bottom:5px;}
+100% {left:5px; top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {left:0px; top:0px;}
+25%  {left:10px; top:0px;}
+50%  {left:0px; top:10px;}
+75%  {left:10px; top:0px;}
+100% {left:0px; top:10px;}
+}
+
+
 .slide {
 	background-attachment: fixed;
 	width: 100%;
