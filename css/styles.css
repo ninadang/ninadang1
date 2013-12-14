@@ -16,11 +16,17 @@ h1 {
 	font-family: 'Roboto';
 	font-weight: 300;
 	font-size: 80px;
+	color: #000;
 	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
+	color: #000;
 	font-size: 24px;
+}
+
+.sub {
+	color: #000;
 }
 
 h3 {
@@ -129,11 +135,11 @@ animation-iteration-count:infinite;
 #slide1 {
 	width: 1600px;
  	height: 655px;
-	background: url("../img/back/splash-green.jpg");
+	background: url("../img/back/1.jpg");
 }
 
 #slide3 {
-	background: url("../img/back/splash2-green.jpg");
+	background: url("../img/back/2.jpg");
 }
 
 #slide2, #slide4 {
@@ -142,7 +148,7 @@ animation-iteration-count:infinite;
 
 
 #slide5 {
-	background: url("../img/back/splash-back-green.jpg");
+	background: url("../img/back/3.jpg");
 }
 
 .about, .work, .skills, .contact {
@@ -166,7 +172,7 @@ animation-iteration-count:infinite;
 
 .msg-head:hover {
 	cursor: pointer;
-	color: #000;
+	color: #318b6b;
 }
 
 .msg-body {
