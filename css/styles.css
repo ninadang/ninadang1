@@ -131,6 +131,7 @@ animation-iteration-count:infinite;
 	background-color: #1a1a1a;
 	width: 2000px;
  	height: 655px;
+ 	min-height: 655px;
 }
 
 #slide1 {
@@ -145,7 +146,7 @@ animation-iteration-count:infinite;
 	background: url("../img/back/3.jpg");
 }
 
-.about, .work, .skills, .contact {
+.about, .skills, .work, .contact {
 	margin-top: 2%;
 	margin-left: 5%;
 	color: #FFF;
@@ -217,6 +218,6 @@ animation-iteration-count:infinite;
 
 .ultra {
 	position: absolute;
-	margin-left: 35%;
-	margin-top: 11%;
+	margin-left: 700px;
+	margin-top: 150px;
 }
