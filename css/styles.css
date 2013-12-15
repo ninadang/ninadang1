@@ -182,3 +182,12 @@ animation-iteration-count:infinite;
 #narrative {
 	width: 600px;
 }
+
+#last {
+	font-size: 18px;
+	margin-top: 250px;
+}
+
+#email {
+	font-size: 32px;
+}
