@@ -158,6 +158,10 @@ animation-iteration-count:infinite;
 	font-weight: 300;
 }
 
+.container {
+	margin-left: 0;
+}
+
 .msg-head {
 	font-size: 21px;
 	padding: 5px 10px;
@@ -220,4 +224,8 @@ animation-iteration-count:infinite;
 	position: absolute;
 	margin-left: 700px;
 	margin-top: 150px;
+}
+
+.glyphicon.glyphicon-chevron-down {
+	
 }
