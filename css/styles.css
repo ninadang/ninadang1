@@ -206,14 +206,14 @@ animation-iteration-count:infinite;
 #creep {
 	position: absolute;
 	margin-left: -5%;
-	margin-top: 13%;
+	margin-top: 9%;
 	margin-bottom: 0px;
 }
 
 #creeptumor {
 	position: relative;
-	margin-left: 33%;
-	margin-top: 6%;
+	margin-left: 31%;
+	margin-top: 1%;
 }
 
 .ultra {
