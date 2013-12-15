@@ -1,7 +1,6 @@
 $(function() {
 
 	var viewportheight = $(window).height();
-	alert(viewportheight);
 	/* HIIIIIII -Elliot */
 	$('#slide1, #slide2, #slide3, #slide4, #slide5').height(viewportheight);
 	
