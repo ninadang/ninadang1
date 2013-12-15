@@ -9,7 +9,7 @@
 body {
 	font-family: 'Roboto';
 	color: #FFF;
-	background-color: #0a846d;
+	background-color: #008970;
 }
 
 h1 {
@@ -205,19 +205,19 @@ animation-iteration-count:infinite;
 
 #creep {
 	position: absolute;
-	margin-left: -15%;
-	margin-top: 9.5%;
+	margin-left: -5%;
+	margin-top: 13%;
 	margin-bottom: 0px;
 }
 
 #creeptumor {
 	position: relative;
 	margin-left: 33%;
-	margin-top: 5%;
+	margin-top: 6%;
 }
 
 .ultra {
 	position: absolute;
-	margin-left: 36%;
+	margin-left: 35%;
 	margin-top: 11%;
 }
