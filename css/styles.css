@@ -166,7 +166,7 @@ animation-iteration-count:infinite;
 
 .msg-head:hover {
 	cursor: pointer;
-	color: #0a846d;
+	color: #a5a22f;
 }
 
 .msg-body {
@@ -184,10 +184,26 @@ animation-iteration-count:infinite;
 }
 
 #last {
-	font-size: 18px;
-	margin-top: 250px;
+	font-size: 14px;
+	margin-top: 17%;
+	z-index:100;
+    position:absolute; 
 }
 
 #email {
 	font-size: 32px;
+}
+
+#email a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#email a:hover {
+	color: #a5a22f;
+}
+
+#creep {
+	margin-left: -12%;
+	margin-top: 5%;
 }
