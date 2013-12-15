@@ -41,7 +41,7 @@ jQuery(document).ready(function ($) {
     function goToByScroll(dataslide) {
         htmlbody.animate({
             scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
-        }, 3000, 'easeInOutSine');
+        }, 3000);
     }
 
 
