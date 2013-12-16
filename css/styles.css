@@ -189,8 +189,7 @@ animation-iteration-count:infinite;
 
 #last {
 	font-size: 14px;
-	margin-top: 20%;
-	z-index:100;
+	margin-top: 50px;
     position:absolute; 
 }
 
@@ -220,7 +219,7 @@ animation-iteration-count:infinite;
 #creeptumor {
 	position: relative;
 	margin-left: 48%;
-	margin-top: -10%;
+	margin-top: 10px;
 	height: 250px;
 	width: 390px;
 }
