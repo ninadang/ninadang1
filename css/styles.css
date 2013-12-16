@@ -189,7 +189,7 @@ animation-iteration-count:infinite;
 
 #last {
 	font-size: 14px;
-	margin-top: 400px;
+	margin-top: 200px;
     position:absolute; 
 }
 
@@ -206,22 +206,30 @@ animation-iteration-count:infinite;
 	color: #a5a22f;
 }
 
-.creep {
+/*creep {
 	background-image: url(../img/sc/creep3.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	position: absolute;
 	width: 100%;
 	margin-bottom: 0px;
-	background-size: 100% 100%;
+}*/
+
+.creep {
+	margin-top: -200px;
 }
 
 #creeptumor {
-	position: relative;
+	position: absolute;
 	margin-left: 700px;
-	margin-top: -90px;
+	height: 200px;
+	width: 340px;
+}
+
+#cr {
+
 	height: 250px;
-	width: 390px;
+	width: 1200px;
 }
 
 .ultra {
