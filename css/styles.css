@@ -213,13 +213,13 @@ animation-iteration-count:infinite;
 	position: absolute;
 	width: 100%;
 	margin-bottom: 0px;
-	background-size: 97% 97%;
+	background-size: 100% 100%;
 }
 
 #creeptumor {
 	position: relative;
-	margin-left: 48%;
-	margin-top: 10px;
+	margin-left: 800px;
+	margin-top: -60px;
 	height: 250px;
 	width: 390px;
 }
