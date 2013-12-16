@@ -1,7 +1,7 @@
 $(function() {
 
 	var viewportheight = $(window).height();
-	/* HIIIIIII -Elliot */
+
 	$('#slide1, #slide2, #slide3, #slide4, #slide5').height(viewportheight);
 	
 	//hide the all of the element with class msg_body
