@@ -9,7 +9,7 @@
 body {
 	font-family: 'Roboto';
 	color: #FFF;
-	background-color: #008970;
+	background-color: #118770;
 }
 
 h1 {
@@ -143,7 +143,7 @@ animation-iteration-count:infinite;
 }
 
 #slide5 {
-	background: url("../img/back/3.jpg");
+	background: url("../img/back/space3.jpg");
 }
 
 .about, .skills, .work, .contact {
@@ -189,7 +189,7 @@ animation-iteration-count:infinite;
 
 #last {
 	font-size: 14px;
-	margin-top: 50px;
+	margin-top: 400px;
     position:absolute; 
 }
 
@@ -218,8 +218,8 @@ animation-iteration-count:infinite;
 
 #creeptumor {
 	position: relative;
-	margin-left: 800px;
-	margin-top: -60px;
+	margin-left: 700px;
+	margin-top: -90px;
 	height: 250px;
 	width: 390px;
 }
