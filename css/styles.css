@@ -239,5 +239,9 @@ animation-iteration-count:infinite;
 }
 
 .glyphicon.glyphicon-chevron-down {
-	
+	margin-left: 5px;
+}
+
+#narr1 {
+	display: none;
 }
