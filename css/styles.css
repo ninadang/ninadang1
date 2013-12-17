@@ -162,18 +162,18 @@ animation-iteration-count:infinite;
 	margin-top: 20px;
 }
 
-#card-pics img, #narr-pics img {
+#card-pics img, #narr-pics img, #quiet-pics img {
 	padding-right: 5px;
 	padding-bottom: 5px;
 	padding-top: 5px;
 }
 
-.work-card, .work-narr {
+.work-card, .work-narr, .work-quiet {
 	font-size: 24px;
 	position: relative;
 }
 
-.work-card:hover, .work-narr:hover, .weblink a:hover {
+.work-card:hover, .work-narr:hover, .work-quiet:hover, .weblink a:hover {
 	cursor: pointer;
 	color: #a5a22f;
 }

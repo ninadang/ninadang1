@@ -6,14 +6,24 @@ $(function() {
 
 	$("#narr-pics").hide();
 	$("#card-pics").hide();
+	$("#quiet-pics").hide();
 
 	$(".work-narr").click(function(){
 			$("#card-pics").hide();
+			$("#quiet-pics").hide();
 			$("#narr-pics").toggle("slow");
 	});
 
 	$(".work-card").click(function(){
 		$("#narr-pics").hide();
+		$("#quiet-pics").hide();
 		$("#card-pics").toggle("slow");
+	});
+
+
+	$(".work-quiet").click(function(){
+		$("#narr-pics").hide();
+		$("#card-pics").hide();
+		$("#quiet-pics").toggle("slow");
 	});
 });
