@@ -13,6 +13,7 @@ $(function() {
 		//if .attr('display') == "none" then
 			//hide me
 		//
+		$(".msg-body").hide();
 		var target = $(this).next(".msg-body");
 		target.slideToggle(600);
 		target.addClass('active');
