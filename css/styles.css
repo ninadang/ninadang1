@@ -158,24 +158,20 @@ animation-iteration-count:infinite;
 	font-weight: 300;
 }
 
-.container {
-	margin-left: 0;
-}
-
-.msg-head {
-	font-size: 21px;
-	padding: 5px 10px;
+.work-card, .work-narr {
+	font-size: 24px;
+	padding: 5px 5px;
 	position: relative;
 }
 
-.msg-head:hover {
+.work-card:hover {
 	cursor: pointer;
 	color: #a5a22f;
 }
 
-.msg-body {
-	font-weight: 300; 
-	padding: 5px 10px 15px;
+.work-narr:hover {
+	cursor: pointer;
+	color: #a5a22f;
 }
 
 .skill-icons img {
@@ -240,8 +236,4 @@ animation-iteration-count:infinite;
 
 .glyphicon.glyphicon-chevron-down {
 	margin-left: 5px;
-}
-
-#narr1 {
-	display: none;
 }
