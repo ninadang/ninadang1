@@ -7,14 +7,13 @@ $(function() {
 	$("#narr-pics").hide();
 	$("#card-pics").hide();
 
-	//toggle the componenet with class msg_body
 	$(".work-narr").click(function(){
-		$("#card-pics").hide();
-		$("#narr-pics").show("slow");
+			$("#card-pics").hide();
+			$("#narr-pics").toggle("slow");
 	});
 
 	$(".work-card").click(function(){
 		$("#narr-pics").hide();
-		$("#card-pics").show("slow");
+		$("#card-pics").toggle("slow");
 	});
 });
