@@ -152,6 +152,10 @@ animation-iteration-count:infinite;
 	color: #FFF;
 }
 
+#work-head {
+	margin-bottom: 0px;
+}
+
 .writing {
 	width: 700px;
 	font-size: 20px;
