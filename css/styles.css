@@ -160,16 +160,10 @@ animation-iteration-count:infinite;
 
 .work-card, .work-narr {
 	font-size: 24px;
-	padding: 5px 5px;
 	position: relative;
 }
 
-.work-card:hover {
-	cursor: pointer;
-	color: #a5a22f;
-}
-
-.work-narr:hover {
+.work-card:hover, .work-narr:hover {
 	cursor: pointer;
 	color: #a5a22f;
 }
@@ -202,15 +196,6 @@ animation-iteration-count:infinite;
 	color: #a5a22f;
 }
 
-/*creep {
-	background-image: url(../img/sc/creep3.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	position: absolute;
-	width: 100%;
-	margin-bottom: 0px;
-}*/
-
 .creep {
 	margin-top: -200px;
 }
@@ -234,6 +219,3 @@ animation-iteration-count:infinite;
 	margin-top: 150px;
 }
 
-.glyphicon.glyphicon-chevron-down {
-	margin-left: 5px;
-}
