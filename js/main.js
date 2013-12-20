@@ -8,6 +8,7 @@ $(function() {
 	$("#card-pics").hide();
 	$("#quiet-pics").hide();
 
+	
 	$(".work-narr").click(function(){
 			$("#card-pics").hide();
 			$("#quiet-pics").hide();
@@ -25,5 +26,10 @@ $(function() {
 		$("#narr-pics").hide();
 		$("#card-pics").hide();
 		$("#quiet-pics").toggle("slow");
+	});
+
+	// img tag clicker
+	$("img").click(function() {
+		window.open($(this).attr("src"));
 	});
 });
