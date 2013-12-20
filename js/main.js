@@ -27,4 +27,9 @@ $(function() {
 		$("#card-pics").hide();
 		$("#quiet-pics").toggle("slow");
 	});
+
+	// img tag clicker
+	$("img").click(function() {
+		window.open($(this).attr("src"));
+	});
 });
