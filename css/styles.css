@@ -37,6 +37,7 @@ h3 {
 	font-size: 50px;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 h4 {
@@ -223,8 +224,9 @@ animation-iteration-count:infinite;
 #creeptumor {
 	position: absolute;
 	margin-left: 700px;
-	height: 200px;
-	width: 340px;
+	margin-top: 50px;
+	height: 220px;
+	width: 360px;
 }
 
 #cr {
@@ -242,4 +244,3 @@ animation-iteration-count:infinite;
 .sites img:hover {
 	cursor: pointer;
 }
-
