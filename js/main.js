@@ -32,4 +32,8 @@ $(function() {
 	$("img").click(function() {
 		window.open($(this).attr("src"));
 	});
+
+	$(".weblink").click(function() {
+		window.open($(this).attr("src"));
+	});
 });

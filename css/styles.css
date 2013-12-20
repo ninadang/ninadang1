@@ -127,8 +127,8 @@ animation-iteration-count:infinite;
 	background-attachment: fixed;
 	/*position: relative; */
 	overflow: hidden;
-	/*background-color: #318b6b;*/
-	background-color: #1a1a1a;
+	/*background-color: #1a1a1a; */
+	background-image: url(../img/dvsup.png);
 	width: 2000px;
  	height: 655px;
  	min-height: 655px;
@@ -237,5 +237,9 @@ animation-iteration-count:infinite;
 	position: absolute;
 	margin-left: 730px;
 	margin-top: 150px;
+}
+
+.sites img:hover {
+	cursor: pointer;
 }
 
