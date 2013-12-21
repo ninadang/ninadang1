@@ -29,7 +29,7 @@ $(function() {
 	});
 
 	// img tag clicker
-	$("img").click(function() {
+	$(".pic").click(function() {
 		window.open($(this).attr("src"));
 	});
 

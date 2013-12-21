@@ -244,3 +244,8 @@ animation-iteration-count:infinite;
 .sites img:hover {
 	cursor: pointer;
 }
+
+.weblink:hover {
+	color: #a5a22f;
+	cursor: pointer;
+}
