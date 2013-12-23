@@ -175,6 +175,7 @@ animation-iteration-count:infinite;
 
 .work-card, .work-narr, .work-quiet {
 	font-size: 24px;
+	margin-bottom: 2px;
 	position: relative;
 }
 
