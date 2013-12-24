@@ -5,7 +5,7 @@ $(function() {
 	$('#slide1, #slide2, #slide3, #slide4, #slide5').height(viewportheight);
 
 	$("#narr-pics").hide();
-	$("#card-pics").hide();
+	//$("#card-pics").hide();
 	$("#quiet-pics").hide();
 	
 	$(".work-narr").click(function(){
