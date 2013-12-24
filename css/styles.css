@@ -92,43 +92,41 @@ ul.navigation li.active {
 }
 
 .ov {
-position:relative;
-animation-name:myfirst;
-animation-duration:4s;
-animation-timing-function:linear;
-animation-iteration-count:infinite;
-/* Safari and Chrome: */
--webkit-animation-name:myfirst;
--webkit-animation-duration:4s;
--webkit-animation-timing-function:linear;
--webkit-animation-iteration-count:infinite;
-}
+	position:relative;
+	animation-name:myfirst;
+	animation-duration:4s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+	/* Safari and Chrome: */
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:4s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:infinite;
+	}
 
-@keyframes myfirst
-{
-0%   {left:0px; top:0px;}
-25%  {left:10px; top:0px;}
-50%  {left:0px; top:10px;}
-75%  {left:10px; top:0px;}
-100% {left:0px; top:0px;}
-}
+	@keyframes myfirst
+	{
+	0%   {left:0px; top:0px;}
+	25%  {left:10px; top:0px;}
+	50%  {left:0px; top:10px;}
+	75%  {left:10px; top:0px;}
+	100% {left:0px; top:0px;}
+	}
 
 
-@-webkit-keyframes myfirst /* Safari and Chrome */
-{
-0%   {left:0px; top:0px;}
-25%  {left:10px; top:0px;}
-50%  {left:0px; top:10px;}
-75%  {left:10px; top:0px;}
-100% {left:0px; top:0px;}
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+	0%   {left:0px; top:0px;}
+	25%  {left:10px; top:0px;}
+	50%  {left:0px; top:10px;}
+	75%  {left:10px; top:0px;}
+	100% {left:0px; top:0px;}
 }
   
 
 .slide {
 	background-attachment: fixed;
-	/*position: relative; */
 	overflow: hidden;
-	/*background-color: #1a1a1a; */
 	background-image: url(../img/dvsup.png);
 	width: 2000px;
  	height: 655px;
@@ -180,6 +178,7 @@ animation-iteration-count:infinite;
 }
 
 .work-card:hover, .work-narr:hover, .work-quiet:hover, .weblink a:hover {
+	text-shadow: 0 0 7px #a5a22f;
 	cursor: pointer;
 	color: #a5a22f;
 }
@@ -250,3 +249,17 @@ animation-iteration-count:infinite;
 	color: #a5a22f;
 	cursor: pointer;
 }
+
+.arr {
+	position: absolute;
+	bottom: 0;
+}
+
+.arr:hover {
+	filter: drop-shadow(3px 3px 3px #cce6e0);
+	-webkit-filter: drop-shadow(3px 3px 3px #cce6e0); 
+	-moz-filter: drop-shadow(3px 3px 3px #cce6e0);
+	-o-filter: drop-shadow(3px 3px 3px #cce6e0);
+	-ms-filter: drop-shadow(3px 3px 3px #cce6e0);
+}
+

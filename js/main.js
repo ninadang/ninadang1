@@ -7,7 +7,6 @@ $(function() {
 	$("#narr-pics").hide();
 	$("#card-pics").hide();
 	$("#quiet-pics").hide();
-
 	
 	$(".work-narr").click(function(){
 			$("#card-pics").hide();
