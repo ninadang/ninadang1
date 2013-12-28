@@ -86,9 +86,15 @@ ul.navigation li.active {
 	height: 660px;
 }
 
+#cloud {
+	position: relative;
+	margin-left: 390px;
+	margin-top: 20px;
+}
+
 .ovie {
 	margin-left: 800px;
-	margin-top: 45px;
+	margin-top: 80px;
 }
 
 .ov {
