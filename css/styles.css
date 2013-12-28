@@ -127,7 +127,8 @@ ul.navigation li.active {
 .slide {
 	background-attachment: fixed;
 	overflow: hidden;
-	background-image: url(../img/dvsup.png);
+	/*background-image: url(../img/dvsup.png);*/
+	background-color: #111;
 	width: 2000px;
  	height: 655px;
  	min-height: 655px;
@@ -161,23 +162,23 @@ ul.navigation li.active {
 	font-weight: 300;
 }
 
-.narr-pics, .card-pics {
+.narr-pics, .card-pics, .quiet-pics, .info-pics {
 	margin-top: 20px;
 }
 
-#card-pics img, #narr-pics img, #quiet-pics img {
+#card-pics img, #narr-pics img, #quiet-pics img, #info-pics img {
 	padding-right: 5px;
 	padding-bottom: 5px;
 	padding-top: 5px;
 }
 
-.work-card, .work-narr, .work-quiet {
+.work-card, .work-narr, .work-quiet, .work-info {
 	font-size: 24px;
 	margin-bottom: 2px;
 	position: relative;
 }
 
-.work-card:hover, .work-narr:hover, .work-quiet:hover, .weblink a:hover {
+.work-card:hover, .work-narr:hover, .work-quiet:hover, .work-info:hover, .weblink a:hover {
 	text-shadow: 0 0 7px #a5a22f;
 	cursor: pointer;
 	color: #a5a22f;
@@ -224,7 +225,7 @@ ul.navigation li.active {
 #creeptumor {
 	position: absolute;
 	margin-left: 700px;
-	margin-top: 50px;
+	margin-top: 20px;
 	height: 220px;
 	width: 360px;
 }
