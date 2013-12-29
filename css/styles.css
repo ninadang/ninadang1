@@ -51,7 +51,7 @@ ul.navigation {
   float: left;
   position: fixed;
   padding: 1.5%;
-  margin-top: 10%;
+  margin-top: 11%;
   left: 0;
   z-index: 9999; 
 }
@@ -87,9 +87,9 @@ ul.navigation li.active {
 }
 
 #cloud {
-	position: relative;
-	margin-left: 390px;
-	margin-top: 20px;
+	position: absolute;
+	margin-left: 410px;
+	margin-top: -120px;
 }
 
 .ovie {
@@ -174,8 +174,7 @@ ul.navigation li.active {
 
 #card-pics img, #narr-pics img, #quiet-pics img, #info-pics img {
 	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	padding-bottom: 2px;
 }
 
 .work-card, .work-narr, .work-quiet, .work-info {
@@ -207,7 +206,7 @@ ul.navigation li.active {
 
 #last {
 	font-size: 14px;
-	margin-top: 270px;
+	margin-top: 278px;
     position:absolute; 
 }
 
@@ -250,6 +249,10 @@ ul.navigation li.active {
 
 .sites img:hover {
 	cursor: pointer;
+}
+
+.weblink {
+	font-size: 11px;
 }
 
 .weblink:hover {
