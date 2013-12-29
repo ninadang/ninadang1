@@ -149,7 +149,7 @@ ul.navigation li.active {
 }
 
 #slide5 {
-	background: url("../img/back/space3.jpg");
+	background: url("../img/back/ground2.jpg");
 }
 
 .about, .skills, .work, .contact {
@@ -207,7 +207,7 @@ ul.navigation li.active {
 
 #last {
 	font-size: 14px;
-	margin-top: 200px;
+	margin-top: 270px;
     position:absolute; 
 }
 
