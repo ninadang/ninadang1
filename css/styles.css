@@ -78,6 +78,22 @@ ul.navigation li.active {
     background: white; 
 }
 
+#top-nav {
+	position: fixed;
+	top: 0;
+	color: #000;
+	background: #FFF;
+	z-index: 10000;
+	width: 100%;
+	height: 30px;
+	opacity: 0.2;
+}
+
+#top-nav #top-bar {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
 .home-content {
 	position: absolute;
 	top: 15%;
@@ -86,10 +102,16 @@ ul.navigation li.active {
 	height: 660px;
 }
 
-#cloud {
+#cloud1 {
 	position: absolute;
 	margin-left: 410px;
 	margin-top: -120px;
+}
+
+#cloud2 {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 275px;
 }
 
 .ovie {
@@ -146,10 +168,12 @@ ul.navigation li.active {
 
 #slide3 {
 	background: url("../img/back/space2.jpg");
+
 }
 
 #slide5 {
-	background: url("../img/back/ground2.jpg");
+	/*background: url("../img/back/ground2.jpg");*/
+	background: url("../img/back/space4.jpg")
 }
 
 .about, .skills, .work, .contact {
@@ -205,13 +229,13 @@ ul.navigation li.active {
 }
 
 #last {
-	font-size: 14px;
-	margin-top: 278px;
+	font-size: 12px;
+	margin-top: 280px;
     position:absolute; 
 }
 
 #email {
-	font-size: 32px;
+	font-size: 24px;
 }
 
 #email a {
@@ -273,3 +297,6 @@ ul.navigation li.active {
 	-ms-filter: drop-shadow(3px 3px 3px #cce6e0);
 }
 
+#exlinks {
+	margin-top: 20px;
+}
